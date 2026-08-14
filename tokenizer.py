@@ -1,4 +1,4 @@
-with open("data/tinyshakespeare.txt", "r") as f:
+with open("data/yoda_pairs.txt", "r") as f:
     text = f.read()
 
 chars = sorted(set(text))

@@ -1,8 +1,8 @@
 import torch
 
-batch_size = 32
-block_size = 8
-n_embd = 32
+batch_size = 128
+block_size = 256
+n_embd = 128
 n_head = 4
 n_layer = 4
 dropout = 0.0
